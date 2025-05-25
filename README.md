@@ -1,17 +1,57 @@
-# Основы алгоритмизации и программирования
+# Задания массивы .NET Framework 4.8
 
-## Выполнил: _Баканин Максим ИПО-21.23_
+## Вопросы:
 
-### [Блок-схема]() (не выполнено)
+### 1. Ответ: 18
 
-### [Консольная новелла]() (выполнено)
+### 2. Ответ: 2
 
-### [Задачи циклы]() (выполнено)
+### 3. Ответ: Ошибка IndexOutOfRangeException
 
-### [Задачи массивы]() (выполнено)
+### 4. Ответ: nums[2][1]
 
-### [Задачи coderun]() (выполнено)
+### 5.
+```c#
+using System;
 
-### [Консольный калькулятор]() (выполнено)
+namespace Массивы
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+            int[,,] mas = {
+            { { 1, 2 }, { 3, 4 } },
+            { { 4, 5 }, { 6, 7 } },
+            { { 7, 8 }, { 9, 10 } },
+            { { 10, 11 }, { 12, 13 } }
+            };
 
-### [Игра крестики-нолики]() (выполнено)
+            Console.Write("{");
+            for (int i = 0; i < mas.GetLength(0); i++)
+            {
+                Console.Write("{");
+                for (int j = 0; j < mas.GetLength(1); j++)
+                {
+                    Console.Write("{");
+                    for (int k = 0; k < mas.GetLength(2); k++)
+                    {
+                        Console.Write(mas[i, j, k]);
+                        if (k < mas.GetLength(2) - 1)
+                            Console.Write(" , ");
+                    }
+                    Console.Write("}");
+                    if (j < mas.GetLength(1) - 1)
+                        Console.Write(" , ");
+                }
+                Console.Write("}");
+                if (i < mas.GetLength(0) - 1)
+                    Console.Write(" , ");
+            }
+            Console.WriteLine("}");
+        }
+    }
+}
+```
+
+## [Вернутся на главную](https://github.com/m0ntly/task_colledge)
