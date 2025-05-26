@@ -2,7 +2,7 @@
 
 ## Выполнил: _Баканин Максим ИПО-21.23_
 
-### [Блок-схема]() (выполнено)
+### [Блок-схема](https://github.com/m0ntly/task_colledge/tree/The_block_diagram) (выполнено)
 
 ### [Консольная новелла](https://github.com/m0ntly/task_colledge/tree/Console_Novel) (выполнено)
 
