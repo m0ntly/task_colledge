@@ -2,7 +2,7 @@
 
 ## Выполнил: _Баканин Максим ИПО-21.23_
 
-### [Блок-схема]() (не выполнено)
+### [Блок-схема]() (выполнено)
 
 ### [Консольная новелла](https://github.com/m0ntly/task_colledge/tree/Console_Novel) (выполнено)
 
@@ -15,3 +15,5 @@
 ### [Консольный калькулятор](https://github.com/m0ntly/task_colledge/tree/Console_Calculator) (выполнено)
 
 ### [Игра крестики-нолики](https://github.com/m0ntly/task_colledge/tree/Game_Tic_Tac_Toe) (выполнено)
+
+### [Проводник]() (выполнено)
